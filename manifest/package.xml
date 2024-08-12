@@ -10,8 +10,8 @@
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
+        <members>Test__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
