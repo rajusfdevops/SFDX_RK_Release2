@@ -48,12 +48,7 @@ withCredentials([file(credentialsId: DEV2_JWT_KEY_CRED_ID, variable: 'dev2_jwt_k
         println rc
 
         // Deploy metadata to Dev2
-        // Verify files in the manifest/objects directory
-if (isUnix()) {
-sh 'ls -R manifest/objects/'
-} else {
-bat 'dir /s manifest\\objects\\'
-}
+        
         def rmsg
         if (isUnix()) {
             rmsg = sh returnStdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/. -u ${DEV2_HUB_ORG} --wait 10"
@@ -79,12 +74,7 @@ withCredentials([file(credentialsId: TEST2_JWT_KEY_CRED_ID, variable: 'test2_jwt
         println rc
 
         // Deploy metadata to Test2
-        // Verify files in the manifest/objects directory
-if (isUnix()) {
-sh 'ls -R manifest/objects/'
-} else {
-bat 'dir /s manifest\\objects\\'
-}
+        
 
         def rmsg
         if (isUnix()) {
