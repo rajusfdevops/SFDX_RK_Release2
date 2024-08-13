@@ -5,6 +5,12 @@
         <members>HelloWorldTest</members>
         <name>ApexClass</name>
     </types>
+     <types>
+        <members>Test__c.Currency__c</members>
+        <members>Test__c.Email__c</members>
+        <members>Test__c.Phone__c</members>
+        <name>CustomField</name>
+    </types>
     <types>
         <members>Test__c</members>
         <name>CustomObject</name>
