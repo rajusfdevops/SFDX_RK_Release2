@@ -6,7 +6,7 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Test__c</members>
+        <members>Objects.Test__c</members>
         <name>CustomObject</name>
     </types>
     <version>61.0</version>
