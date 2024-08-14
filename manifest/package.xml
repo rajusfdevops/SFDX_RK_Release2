@@ -8,7 +8,7 @@
         <name>ApexClass</name>
     </types>
      <types>
-        <members>*</members>
+        <members>Test__c</members>
         <name>CustomObject</name>
     </types>
      <types>
